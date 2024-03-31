@@ -225,6 +225,8 @@ footer h2 {
 }
 footer #contacts {
   margin-bottom: 20px;
+  margin: auto;
+  position: absolute
 }
 footer .contact-link {
   display: block;
@@ -243,11 +245,14 @@ footer .contact-link:hover {
 
 .awesome {
   border-color: #333;
+  border-width: 10px;
   color: #fff;
   background-image: linear-gradient(45deg, #333 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   transition: background 500ms ease-in-out;
+  border-radius: 20px;
+  position: absolute
 }
 .awesome:hover {
   background-position: 0;
