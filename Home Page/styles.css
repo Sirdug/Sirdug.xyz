@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease; /* Smooth transition for background color */
+  background-color: #1d1d1d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #FF8C00, #FF6347); /* Orange to red gradient */
+  margin: 0 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 10px rgba(255, 99, 71, 0.3); /* Orange shadow */
+}
+
+.menu a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(255, 99, 71, 0.6); /* More pronounced shadow on hover */
+}
+
+.container .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-item {
+  width: calc(33.33% - 20px);
+  margin: 20px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.portfolio-item .info {
+  padding: 20px;
+}
+
+.portfolio-item h3 {
+  margin-top: 0;
+}

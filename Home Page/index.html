@@ -1,132 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sirdug.xyz</title>
-  <link rel="icon" type="image/png" href="logo_p.png">
-  <script src="https://use.typekit.net/vdk3aep.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+  <link rel="icon" type="image/png" href="/Home Page/logo_p.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="outer">
-	<i class="fa fa-arrow-circle-up" id="arrow" aria-hidden="true"></i>
-	<div class="inner">
-
-		<header>
-			<div class="container-fluid clearfix">
-				<div class="row">
-					<i class="fa fa-bars nav-toggle" aria-hidden="true"></i>
-					<nav role="navigation">
-						<i class="fa fa-times nav-toggle" aria-hidden="true"></i>
-						<ul class="list-unstyled" id="nav">
-							<li>
-								<a class="nav-link" href="#intro"><span>About</span></a>
-								<div class="underline"></div>
-							</li>
-							<li>
-								<a class="nav-link" href="#skills"><span>Skills</span></a>
-								<div class="underline"></div>
-							</li>
-							<li>
-								<a class="nav-link" href="#portfolio"><span>Portfolio</span></a>
-								<div class="underline"></div>
-							</li>
-							<li>
-								<a class="nav-link" href="#contacts"><span>Contacts</span></a>
-								<div class="underline"></div>
-							</li>
-						</ul>
-					</nav>
-				</div>
-				<h1 class="titanic naked">↓Scroll↓ ↓Down↓</h1>
-			
-			</div>
-		</header>
-
-
-		<main id="main">
-			<div class="container">
-				<div class="row">
-					<div id="intro">
-						My Name is Aaron. Im a Frontend Devloper, and Love Anything Computers
-					</div>
-				</div>
-			</div>
-		</main>
-		<section class="skills-sec">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-10 col-xs-offset-1">
-						<h2>Skills</h2>
-					</div>
-					<div class="col-xs-8 col-xs-offset-2">
-						<div id="skills">
-							<img class="img-responsive skill toR" src="js-noBG.png" alt="js icon" />
-							<img class="img-responsive skill" src="css-noBG.png" alt="css icon" />
-							<img class="img-responsive skill toL" src="html-noBG.png" alt="html icon" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+  <header class="header">
+    <img width="70px" src="logo_p.png" alt="">
+    <h1>Sirdug.xyz</h1>
+    <p>Welcome to my site</p>
+  </header>
+  
+  <nav class="menu">
+    <a href="/Home Page/index.html">Home</a>
+    <a href="/Games/gamepage/index.html">Games</a>
+    <a href="/minebot/index.html">DC Bot</a>
+    <a href="/contact/index.html">Contact</a>
+  </nav>
+  
+  <div class="container">
+    <div class="content">
+      <div class="portfolio-item">
+        <img src="logo.png" alt="Project 1">
+        <div class="info">
+          <h3>Discord Bot</h3>
+          <p>This Discord bot will be able to host and control servers.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="logo.png" alt="Project 2">
+        <div class="info">
+          <h3>Game Panel</h3>
+          <p>Game Panel For DC Bot</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Project 3">
+        <div class="info">
+          <h3>Upcoming</h3>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-
-		<section class="portfolio-sec">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-10 col-xs-offset-1">
-						<h2>Portfolio</h2>
-					</div>
-					<div class="col-xs-12">
-						<div id="portfolio">
-							<div class="project">
-								<a href="https://uptime.sirdug.xyz" target="_blank"><img src="https://www.dropbox.com/s/jlt6wt35u88kqmv/weather.png?dl=1" alt="weather_app" class="img-responsive" /></a>
-							</div>
-							<div class="project">
-								<a href="https://codepen.io/dagman/pen/oxqzLx" target="_blank"><img src="https://www.dropbox.com/s/pmqf1y6q1zf5win/pomodoro.png?dl=1" alt="pomodoto_timer" class="img-responsive" /></a>
-							</div>
-							<div class="project">
-								<a href="https://codepen.io/dagman/pen/NNXdxw" target="_blank"><img src="https://www.dropbox.com/s/rb7jycwtwxtkt7d/calculator.png?dl=1" alt="calculator" class="img-responsive" /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-	</div>
-
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1">
-					<h2>Get in Touch</h2>
-				</div>
-				<div class="col-xs-12">
-					<div id="contacts">
-						<div class="row">
-							<div class="col-lg-3 col-sm-6">
-								<a class="contact-link awesome" href="#">Mail</a>
-							</div>
-							<div class="col-lg-3 col-sm-6">
-								<a class="contact-link awesome" href="#">Discord</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-</div>
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
-<script src='https://codepen.io/meltedlilacs/pen/AqgEwq.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js'></script><script  src="./script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
